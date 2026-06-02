@@ -8,7 +8,7 @@
 
 与现有的点跟踪器结合时，VGGT的功能产生了最先进的跟踪性能。
 
-![image-20260602010926692](C:\Users\26458\AppData\Roaming\Typora\typora-user-images\image-20260602010926692.png)
+![image-20260602010926692](https://raw.githubusercontent.com/ZYJ-Group/ZYH/main/image-20260602010926692.png)
 
 输入n个rgb图像序列——VGGT的反向轨迹将其映射到3D注释——包括深度图，相机参数，点图等
 
@@ -30,7 +30,7 @@ I：H*W来表示图像像素的域                   深度图D：像素位置�
 
 ​             消融实验，数据集视图合成的定量比较：
 
-![image-20260602014340913](C:\Users\26458\AppData\Roaming\Typora\typora-user-images\image-20260602014340913.png)
+![image-20260602014340913](https://raw.githubusercontent.com/ZYJ-Group/ZYH/main/image-20260602014340913.png)
 
 VGGT与视觉几何优化如BA结合进一步改善VGGT，后优化仍有改进
 
