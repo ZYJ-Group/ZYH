@@ -1,4 +1,4 @@
-# 关于VLM在SAR图像方面应用文献两篇
+# 关于VLM在遥感图像方面应用文献两篇
 
 ## 一、SARLANG-1M: A Benchmark for Vision-Language Modeling in SAR Image Understanding
 
@@ -166,11 +166,11 @@ SAR图像VQA任务的评估：基于 GPT‐4的指标总体准确率，总体准
 
 #### 补充-图像相似性计算公式
 
-![image-20260922115708899](D:\git project\ZYH\周报\921文献阅读\image-20260922115708899.png)
+![image-20260929082922450](image-20260929082922450-1790641764038-5.png)
 
-![image-20260922115756398](D:\git project\ZYH\周报\921文献阅读\image-20260922115756398.png)
+![image-20260929082950485](image-20260929082950485-1790641791688-7-1790641804604-9.png)
 
-![image-20260922115813916](D:\git project\ZYH\周报\921文献阅读\image-20260922115813916.png)
+![image-20260929083008194](image-20260929083008194-1790641809601-11.png)
 
 在这篇文献中，我初步了解到除了光学图像处理之外的SAR图像，以及VLMs在这方面存在的发展潜力。以及对于数据集的处理，通过几个数据集的合成，模态迁移的方式等，获取到自己想要的数据集，再进行人工筛选优化。
 
@@ -286,4 +286,10 @@ GeoChat不仅回答图像级查询,还参与特定 区域的对话,用精确的�
 
 数据集：提出数据集缺陷，当前数据集，如何制作新的数据集指标
 
-两篇都是遥感 VLM 方向的重要工作。SARLANG-1M 补上了 SAR 多模态数据的空白，GeoChat 补上了遥感统一对话和 grounding 的空白。它们共同说明，遥感 VLM 的突破不只在模型结构，更在数据工程、任务设计、轻量微调和评测体系。
+两篇都是遥感 VLM 方向的重要工作。SARLANG-1M 补上了 SAR 多模态数据的空白，GeoChat 补上了遥感统一对话和 grounding 的空白。：SARLANG-1M 是面向 **SAR 图像理解的大规模图文基准数据集**；GeoChat 是面向 **光学遥感图像的多任务、可视觉定位对话 VLM 模型**
+
+下期任务计划阅读文献：
+
+1、EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents
+
+2、Self-Evolving Embodied Agents via Skill-Harness  Evolution
